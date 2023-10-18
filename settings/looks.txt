@@ -1,0 +1,170 @@
+あなたは、人物の名前と、状況に対して、その人を描写するための適切な外見的な特徴を考えて、それに対して適切な呪文をしたの例を参考にして、自分で考えてください。
+呪文とはDALLE2のような画像生成AIであるstable diffusionのためのプロンプトのことです。呪文は文章ではなく、単語の連結です。
+あなたに与えられている人物と状況は次のとおりです。
+{situation}
+まずは人数、性別、年齢、身長、足、腕、人種、皮膚、汗、顔、目、鼻、口、耳、髪の長さ、髪の色、髪型の観点から外見的特徴を細かく考えて、以下の呪文のリストを参考にして、自分で考えてください
+
+以下は外見的特徴：呪文のような形式で呪文が一覧になったものです。
+
+
+女性1人：1 girl、1 woman
+男性1人：1 boy、1 man（形容詞は上記の女性1人参照）（学習データは女性が多いので、男性が出ない場合は「male focus」を書き足すか、ネガティブに「girl,woman」を入れておくとよい）
+女の子1人：1 little girl、1 female child
+男の子1人：1 little boy、1 male child
+女性（男性）複数：2 girls（好きな人数、形容詞を。男性はboysなどに直す）、couple（カップル）、multiple girls（人数指定なし）、6+girls（6人以上）、group picture（集団写真）
+男女：「1 girl,1 boy」もしくは「couple」。
+人間を表示しない：no humans（もしくはネガティブに「humans」を入れる）
+年齢
+
+「20 years old（省略形は「20yo」)など年齢を書けばよい。
+
+もしくは「little boy（小さな男の子）」「tiny girl（小さな女の子）」「young girl（若い女性）」「mature woman（熟女）」「old man（老人）」「motherly（母親のような）」など。
+体形
+
+背が高い・大きい：tall、big、gigantic（巨大）
+背が低い・小さい：short、tiny
+太っている：fat、plump
+やせている：skinny、emaciated、thin
+筋肉：muscle、muscular female（筋肉質の女性）、muscular male（筋肉質の男性）、toned（やせマッチョ）（筋肉質にしたくないときはネガティブに「muscle」を入れる）、fit-muscled body（引き締まった筋肉）
+細い腰：narrow waist
+手・足
+
+＊足は「arms」を「legs」に置き換え。
+
+細い腕（足）：skinny arms、thin arms
+太い腕（足）：fat arms
+長い腕（足）：long arms
+短い腕（足）：short arms
+足の裏：soles
+皮膚・日焼け・汗
+
+てかった皮膚：shiny skin、oiled skin, glistening skin、high gloss skin
+磁器のような肌：porcelain skin
+濡れた皮膚：wet skin
+汗ばんだ皮膚：sweaty skin
+しわ：Wrinkles skin
+緑色の皮膚：green skin（他の色も「色」+「skin」で）
+日焼けした皮膚：suntan、tanline（日焼けあと）
+汗ばんだ皮膚：sweat、sweaty skin
+水に濡れた皮膚：wet、wet skin
+小麦色の皮膚：wheat skin
+人種
+
+日本人：japanese
+韓国人：korean
+中国人：chinese
+白人：american、europian、white skin
+黒人：african、dark skin
+ファンタジー住人：elf（エルフ）、dark elf（ダークエルフ）、hobbit（ホビット）、dwarf（ドワーフ）、goblin（ゴブリン）、orc（オーク）、fairy（妖精）、monster（怪物）、angel（天使）、demon（悪魔）、vampire（ヴァンパイア）、zombie（ゾンビ）
+
+カメラ目線：looking at viewer
+にやっとした視線：smirking at viewer
+カメラから視線をそらす・横を見る：looking away、looking to the side
+前を見る：looking ahead
+後ろを見る：looking back
+上を見る：looking up
+下を見る：looking down
+
+顔
+
+可愛い：cute、babyface、kawaii
+美しい：beautiful face、perfect face、highly detailed beautiful face and eyes、attractive face（魅力的な顔）
+小顔：smaller face
+そばかす：freckles
+ほくろ：mole
+むくんだ顔：puffy face
+顔を描きこむ：detailed face、delicate facial features、detailed skin、shiny skin
+しわ：wrinkles face
+目
+
+目の色を変更：「green eyes」など「色＋eyes」
+大きな目：big eyes
+細い目：small eyes
+目を閉じる：close eyes
+目を開く：open eyes
+片目を閉じる、ウインク：one eye closed、wink
+まつ毛：eyelashes
+アイライナー：eyeliner
+垂れ目：drooping eyes
+つり目：slant eyes
+耳
+
+福耳：plump ears
+尖った耳（エルフ耳）：elf ears、pointy ears
+口
+
+口を開ける：open mouth
+口を閉じる：close mouth
+半開き：half-open mouth
+ちょっと口を開ける：parted_lips
+舌を出す：tongue、stick out tongue
+舐める：licking
+噛む：biting
+口角を上げる：raise the corner of the mouth
+よだれ：drooling、saliva（唾液）
+鼻
+
+団子鼻：button nose、bulbous nose
+鉤鼻・ワシ鼻：aquiline nose、hooked nose
+表情
+
+笑顔、笑う：smile、laughing、fearless smile（屈託のない笑顔）、adorable smiling（可愛い笑顔）
+真顔：serious
+泣く：cry
+悲しい：sad
+怒る：angry、wrath、mad、furious
+イライラ：annoyed
+ぼうっとする・放心：absence of mind、dazed state、stargazing
+恥ずかしい：shy、embarrassed（困惑）、blush（赤面）
+
+髪の長さ
+
+普通の長さの髪：medium hair
+長い髪：long hair、very long hair、absurdly long hair（地面に垂れるレベルの長さ）（色をつけたい場合は「red long hair」（赤くて長い髪）もしくは「long red hair」などと指定）
+ショートカット：short hair、very short hair、bald（禿げ）
+美しい髪：beautiful hair
+髪型
+
+わけた前髪：parted bangs
+ボブカット・おかっぱ：bob cut、okappa
+ストレート：straight hair
+ツインテール：pigtails、long pigtails、short pigtails、twintails、low twintails
+ポニーテール：ponytail、short ponytail、long ponytail、side ponytail
+ドリルヘアー：drill hair
+ピクシーカット：pixie cut hairstyle
+巻き髪：flipped hair
+カール髪：curly hair
+三つ編み・おさげ：braid、single braid（1本）、twin braid（2本）
+下で結んだ長髪：low-tied long hair
+お団子頭：hair bun
+おでこ出し：forehead、open forehead
+ウェーブ：wavy hair
+ぼさぼさ髪：messy hair
+ハネ毛：loose hair、baby hair
+ハーフアップ：half up、half updo
+ドレッド：dreadlocks、dread hair
+ぱっつん前髪：blunt bangs、straight bangs
+前髪ピン留め：bangs pinned back
+おでこ出し：forehead
+オールバック：combed-back hair、swept back hair、hair pulled back
+斜め前髪：diagonal bangs
+前髪で片目を隠す：hair over one eye
+目の間に前髪を伸ばす：hair between eyes
+ギザギザ髪：spiked hair
+なびく髪：floating hair
+あほ毛：ahoge
+もみあげ：sidelocks
+編んだ髪：braided hair
+長髪を後ろでまとめた髪型：updo hairstyle
+髪の色
+
+髪の色を変更：「black hair」（黒髪）など「色＋hair」で記述。
+金髪：blonde hair
+白髪：white hair
+内側の色が違う髪：colored inner hair
+一部色が違う・しましま：streaked hair
+てかり：shiny hair
+ツートーン：two-tone hair
+色々な色のある髪：multicolored hair
+
+あなたの回答：

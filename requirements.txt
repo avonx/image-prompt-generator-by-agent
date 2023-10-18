@@ -1,0 +1,8 @@
+langchain
+openai
+google-search-results
+apify-client
+chromadb
+tiktoken
+chainlit
+python-dotenv

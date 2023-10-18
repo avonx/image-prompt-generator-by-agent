@@ -1,0 +1,30 @@
+あなたは、与えられた、呪文(magic)と呼ばれる生成AIのプロンプトの一種について、与えられた状況に適切になるように、単語を変えたり、省略したり、並べ替えたりすることで、それを適切な形に整形してください。
+呪文とは、DALLE2のような画像生成AIのモデルの一つであるstable diffusionに送るプロンプトのことです。
+
+状況：{situation}
+
+次のルールを守るようにしてください。
+# ルール
+・ 被りのある単語は省略したり、強調する必要のない単語を削除することで、単語の数はなるべく少なくなるようにしてください。
+・　見た目に関する情報が優先して省略してください
+・ 特に強調したい度合いを指定する場合は、以下のようにして1~2の数値を指定してください。
+    例：白いスカートに、部分的に黒い部分があるとき→(white shirt:1.2), (black skirt:1.1),
+・ 単語を次の順番で並べる
+    １：メインで描きたいものの属性	solo, young girl, short stature	「１人の低身長の若い女の子」の意
+    ２：アングル、目線、ポーズ	from above, looking up, kneeling	上から見る、見上げる、膝をつく
+    ３：髪型、髪/目の色	side ponytail, blond hair, red eyes	金髪サイドポニーテール、赤い目
+    ４：服装	white blouse, off shoulder, shorts	白いオフショルダーのブラウス、ショートパンツ
+    ５：装飾品、アクセサリー	hair ornaments, chokers	髪飾り、チョーカー
+    ６：背景	garden, sun	庭、太陽
+    ７：光	dispersion of light	光のきらめきを表現
+    ８：その他	sweat profusely　「汗をかいている」の意
+
+#理想的なプロンプトの例
+  ・　女性の上半身が大きく映し出された写真で、背景には自然の溢れる神社のようなものが写されており、また、ぼかしがかかっている→Natural, ultra high res, Super Detail, Ultra Detailed,Detailed Skin, Sharp Focus, bokeh, glossy texture, depth of field, shiny hair, shiny skin,1 girl, japanese, children, (15 yo:1.6), young, young girl, baby face, Smooth skin, Without Makeup,　glowing eyes
+  ・　夜の街で韓国風の顔の女性がこちらを見つめている。顔面がアップに表示されている。ロングヘアーで、服装はオフィスウェア→office uniform, amazing lighting, cinematic lighting, busy Korean Street, absurdres, ultra-detailed CG, 8k, high detailed, beautiful face, detailed face, 1girl, solo ,braid, toned, shiny skin, head tilt, standing still, bloom, light particles, depth of field,
+  ・　筋肉がとてもついてる男性が道路に立っていて、こちらをみている。体全体が表示されていて、男性はタンクトップを着ている。髪はベリーショート→dominick_wissel ,solo, blush, 1boy, smile, tank top, shorts, muscular, street, outdoors, thick eyebrows, broad shoulders, big biceps, standing, male focus, seen from above, looking at the viewer, hairy, black hair, erection, hairy armpits,
+  ・　赤い兜を着た女性がどこかを見つめている。竹藪の中で座っていて、背景には見晴らしのいい景色が写っている。女性が画面下部に表示されており、背景も強調されている→1girl, fullbody, sitting, slim, (bamboo trees), kabuto, red samurai armor, misty air, strong sunlight, mossy path, mountain village, huge weapon, mountain top scenery,
+  ・　美しい白人女性のポートレート。そばかす、青い瞳、金髪、ミディアムヘアが特徴的。部屋の中で撮影されている。→a photo of a beautiful 20 years old dutch girl, seductive smile, knitted sweater, cinematic light, (sharp focus), (realistic matte skin, realistic texture skin, realistic eyes), (skin texture visible:1.5), (high quality), Fujifilm XT3
+  ・　白人で青い目をした金髪の女性が崖の岩肌に座っている。背面には絶壁が広がり、波が壁面にぶつかっている。背景が美しく強調されていて、彼女の全身が表示されている→half body photo of a beautiful 20 years old Icelandic girl, extremely detailed eyes, beautiful face, detailed natural skin with pores, sitting on a rock with legs crossed, looking peaceful., Oversized blazer, skinny jeans, loafers, shoulder bag, stud earrings, (lofi, bokeh), by Marta Bevacqua, golden hour, cinematic lighting, (hazy filter, film grain:1.2)
+では、次の呪文を整形してください
+呪文:{magic}

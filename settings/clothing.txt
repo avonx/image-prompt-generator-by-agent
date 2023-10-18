@@ -1,0 +1,221 @@
+あなたは、人物の名前と、状況に対して、その人を描写するための適切な服装や、服装の状態などを考えて、それに対して適切な呪文をしたの例を参考にしながら、自分で考えてください。
+呪文とはDALLE2のような画像生成AIであるstable diffusionのためのプロンプトのことです。呪文は文章ではなく、単語の連結です。
+あなたに与えられている人物と状況は次のとおりです。
+{situation}
+
+まずはアウター、トップス、パンツ、アクセサリー、民族衣装、制服、男装、スポーツウェア、ドレス、ファンタジー、スカートの観点から服装を考えて、以下の呪文のリストを参考にして、呪文を考えてください。
+
+# 以下は服装：呪文という形式で呪文が一覧になったものです。
+パーカー,Parka/hoodie
+ダウンジャケット,Down jacket
+ジージャン,Denim jacket
+レザージャケット,Leather jacket
+カーディガン,Cardigan
+ブルゾン,blouson
+ダウンベスト,Down vest
+テーラードジャケット,Tailored jacket
+トレンチコート,trench coat
+ピーコート,Pea coat
+ウインドブレーカー,Windbreaker
+フリースジャケット,Fleece jacket
+フィールドジャケット,Field jacket
+オーバーコート,Overcoat
+フーディージャケット,hoodie jacket
+ミリタリージャケット,Military jacket
+カページャケット,Cape jacket
+キルティングジャケット,quilted jacket
+スキージャケット,Ski jacket
+ウインターコート,Winter coat
+レインジャケット,Plus-size jacket/Raincoat
+パフォーマンスジャケット,Performance jacket
+ウールコート,Wool coat
+ボンバージャケット,Bomber jacket
+パッド付きジャケット,Padded jacket
+,
+アクセサリー,
+帽子,hat
+リボン,hair ribbon
+ヘアバンド,hairband
+王冠,crown
+ネックレス,necklace
+ピアス,piercing
+イヤリング,earrings
+ヘルメット,helmet
+猫耳など動物の耳,animal ears
+首輪・チョーカー,choker
+サングラス,sunglasses
+眼鏡,glasses
+,
+その他,
+ロリータファッション,Lolita fashion
+ハロウィンコスチューム,
+クリスマスコスチューム,
+動物系コスチューム,Animal costume
+マスク,Mask
+ゴシックコスチューム,Gothic costume
+パジャマ,pajamas
+エプロン,apron
+着ぐるみ,kigurumi
+ビキニ,bikini
+ボディースーツ,bodysuit
+,
+民族衣装,
+和服,Japanese clothes
+着物,kimono
+ディアンドル,dirndl
+ポンチョ,poncho
+サリー,Sari
+アオザイ,
+,
+男装,
+スーツ,
+タキシード,tuxedo
+ベスト,vest
+チノパン,chinos
+スラックス,slacks
+スタジャン,stadium jacket
+ワークシャツ,work shirt
+モッズコート,mods coat
+ネクタイ,tie
+バスクシャツ,basque shirt
+,
+スポーツ,
+野球のユニフォーム,baseball uniform
+バスケットボールのユニフォーム,basketball uniform
+サッカーのユニフォーム,Soccer uniform
+競泳水着,
+チアリーダー,Cheerleader
+テニスのユニフォーム,tennis uniform
+バレーボールのユニフォーム,volleyball uniform
+バドミントンのユニフォーム,
+サーファー,Surfer
+バレリーナ,Ballerina
+ゴルファー,Golfer
+ダンサー,Dancer
+ラグビーのユニフォーム,rugby uniform
+陸上のユニフォーム,
+ジョッキー,Jockey
+ボクサー,boxing
+空手,karate fighter
+ブルマ,buruma
+,
+ファンタジー,
+魔法使い,wizard
+聖職者,clergy
+侍,samurai
+戦士,warrior
+忍者,ninja
+修道士,monk
+聖騎士,knight wizard
+竜騎士,dragon knight
+グリームリーパーコスチューム,
+ファンタジーコスチューム,Fantasy costume
+エジプト系コスチューム,Egyptian costume
+マスカレードコスチューム,
+スーパーヒーローコスチューム,
+フェアリーコスチューム,Fairy costume
+パイレーツコスチューム,Pirates costume
+レオタード,leotard
+ドレス,
+ドレス,dress
+ワンピース,casual dress
+チャイナドレス,qipao
+ウェディングドレス,wedding dress
+ミニドレス,Mini dress
+プリンセスドレス,Princess dress
+パーティードレス,Party dress
+ボールガウン,Ball gown
+マキシドレス,Maxi dress
+ラップドレス,Wrap dress
+ワンショルダードレス,
+フィットアンドフレアドレス,Fit and flare dress
+胸元があいたドレス,
+Vネックのドレス,v neck dress
+フリフリのドレス,ruffle dress
+スリット入りドレス,high slit dress
+,
+制服,
+キャビンアテンダント(CA),cabin attendant
+ウェイトレス,Waitress
+カウンタースタッフ,Counter staff
+看護師,Nurse
+巫女,Miko
+メイドさん,maid uniform
+バニーガール,bunny girl
+医者,Doctor
+消防士,Firefighter
+警察官,Police officer
+パラマウント,Paramedic
+レースクイーン,
+シェフ,Chef
+ピザの配達員,
+ガードマン,Security guard
+パイロット,Pilot
+学校の制服,School Uniforms
+セーラー服,sailor suit
+体操服,gym uniform
+ズボン,
+パンツ,pants
+ジーンズ,Jeans
+ショートパンツ,Shorts
+スリムフィットパンツ,Slim fit pants
+ストレートパンツ,Straight pants
+ワイドパンツ,Wide-leg pants
+カーゴパンツ,Cargo pants
+チノパンツ,Chino pants
+スキニージーンズ,Skinny jeans
+レギンス,Leggings
+ベルボトムパンツ,Bell-bottom pants
+スウェットパンツ,Sweatpants
+オーバーオール,
+レザーパンツ,Leather pants
+パラッツォパンツ,Palazzo pants
+ビーチショーツ,Beach shorts
+,
+スカート,
+ミニスカート,Mini skirt
+デニムスカート,denim skirt
+レザースカート,leather skirt
+ロングスカート,long skirt
+フレアスカート,Flare skirt
+ロングマキシスカート,long maxi-skirt
+フリルスカート,Frill skirt
+プリーツスカート,Pleated skirt
+チュールスカート,Tulle skirt
+チェックスカート,checked skirt
+バルドースカート,Baldo skirt
+スリットスカート,Slit skirt
+ペンシルスカート,pencil skirt
+ドレープスカート,Drape skirt
+,
+トップス,
+シャツ,shirt/t-shirt
+セーター、ニット,sweater
+ブラウス,blouse
+タンクトップ,tank top
+キャミソール,camisole
+ブラトップ,bra top
+タートルネック,turtleneck
+ポロシャツ,polo shirt
+コールドショルダートップ,cold shoulder top
+チュニックブラウス,tunic blouse
+チュニックセーター,tunic sweater
+シフォンブラウス,chiffon blouse
+レーストップス,lace tops
+スウェットシャツ,sweatshirt
+オフショルダートップ,
+ワンショルダートップ,one-shoulder top
+クロップトップ,crop top
+クロップドニット,cropped knit
+モックネックトップ,mock neck top
+スリーブレストップス,sleeveless top
+vネックセーター,v-neck sweater
+バンドートップ,bandeau top
+スモックブラウス,smock blouse
+ボタンシャツ,button-up shirt
+コルセットトップ,corset top
+ベルスリーブ,bell sleeve
+ヘンリーシャツ,henley shirt
+ビーチ,Beach
+
+あなたの回答：

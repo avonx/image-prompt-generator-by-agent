@@ -1,0 +1,96 @@
+あなたは、人物の名前と、状況に対して、その人を描写するための適切な姿勢を考えて、それに対して適切な呪文をしたの例から選んで組み合わせてください。
+呪文とはDALLE2のような画像生成AIであるstable diffusionのためのプロンプトのことです。呪文は文章ではなく、単語の連結です。
+あなたに与えられている人物と状況は次のとおりです。
+{situation}
+まずは視線、立っているか、座っているか、横たわっているか、歩いているか、足や手はどのようにしているかの観点から姿勢を細かく考えて、以下の呪文のリストから、適切なものを選んで組み合わせてください
+
+以下は呪文:姿勢のような形式で呪文が一覧になったものです。
+
+# 視線の例
+looking back：振り返る
+looking at viewer：キャラがこちら(画像側)を見る。
+looking up：キャラが見上げる。
+looking down：キャラが下を見る。
+looking at another：キャラが誰かを見ている。カメラ目線でこちらを見ている場合もある。
+looking to the side：キャラの視線が何かに向いている
+looking away：キャラが視線をそらす。
+looking afar：キャラが遠くを見る。
+looking ahead：キャラが向いている方向を真っ直ぐ見る。例えば右側に向いていたら右側を見て、真正面を向いていたらこちら側を見る。
+
+
+# 立つか、座るかの例
+standing：立っている
+leaning forward：体をちょっと前かがみにしたようなポーズ。お辞儀ぐらいの角度が多い。
+arched back：背筋を伸ばす。(腰は折り曲げてもよい)
+fighting stance：格闘の構え
+leaning back：後ろにもたれかかる。立っている時、及び座っている時。
+walking：歩いている。
+running：走っている。
+jumping：飛び跳ねている。
+balancing：何か危ない足場などを通る場合などの体のバランスの悪さ。
+flyings weatdrops：スポーツ的、活発的な恰好になる意味で使うとよい。
+handstand：逆立ち。
+
+head_tilt：首を傾ける
+eating：食べている。実際に食べ物と一緒に出力され、口に何か含んでいる確率が高い。
+;D：大きく口を開けた笑顔 + ウインク ただ、ウインクの的中率が少々低い気がする
+
+standing on one leg：片足立ち。
+leg up：片足を空中に上げる
+crossed legs：足を交差させる
+
+sitting：座っている
+kneeling：膝まづく
+squatting：しゃがむ
+one knee：片膝立ち
+hugging own legs：体育すわり。
+indian style：あぐら
+seiza：正座
+wariza：ぺたんこ座り、
+yokozuwari：横座り、
+all fours：四つん這い
+reclining：椅子にもたれかかって座っている。
+
+lying：横たわっている
+sleeping：寝ている（完全に熟睡で目をつむっている）
+on bed：ベッドの上に座って、および寝ているポーズ、および背景もベッドになる
+on stomach：うつ伏せ。
+
+# 腕、足などの指定の例
+
+holding：何かを持つ。以下のタグ全ての効果を持つので何を持つか、両手を組むかなど一切わからない。
+grabbing：何かを掴もうとする。
+object hug：物を抱きしめるように持つ。
+holding hair：髪を持つ。
+holding weapon：武器を持つ
+holding sword：剣を持つ
+
+waving：手を振って挨拶
+salute：敬礼。
+armpits：わきの下が見えやすい構図、ポーズになる(手を上げるなど)
+hand up：手を上げる手が目より下の場合。
+hands up：両手を上げる
+arm up：手を上げる。手が目を超える場合。
+arms up：両手を上げる。
+arms behind head：両手で頭を触る。
+outstretched arms：手を左右に広げている。軽く上め。なぜか手が4本になることもしばしば。
+outstretched hand：手を広げて手のひらを開く
+spread arms：手を左右に広げている。軽く下め。なぜか手が4本になることもしばしば。
+reaching：何かに向かって手を伸ばしている。
+
+crossed arms：手を体の前で交差させている。腕組み。
+own hands together：両手を合わせる。
+arm support：腕を使って自分の体重を支えるポーズ。
+arms behind back：腕を後ろに組む。
+hand on hip：手を腰に当てている
+arm at side：片方の手で何かをしている
+hand in pocket：ポケットに手を入れている
+paw pose：猫の真似をする
+claw pose：がおーっとライオンのような真似をする
+
+index finger raised：人差し指を上げる。相手に指さすことはない。。
+pointing：指さし。相手、物、方向など何か目印に人差し指を突き付ける
+thumbs up：サムズアップ。
+open hand：手の平を広げる。
+
+あなたの回答：

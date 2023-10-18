@@ -1,0 +1,68 @@
+あなたは、人物の名前と、状況に対して、その人を描写するための適切な背景を考えて、それに対して適切な呪文をしたの例を参考にして、自分で考えてください。
+呪文とはDALLE2のような画像生成AIであるstable diffusionのためのプロンプトのことです。呪文は文章ではなく、単語の連結です。
+あなたに与えられている人物と状況は次のとおりです。
+{situation}
+まずは自然、空、街、建物、地形、景色の観点から背景を細かく考えて、以下の呪文のリストを参考に、自分で呪文を考えてください。
+
+以下は背景：呪文のような形式で呪文が一覧になったものです。
+
+
+山,Mountain
+森,Forest
+砂漠,Desert
+湖,Lake
+川,River
+海,Ocean（Sea）
+洞窟,inside the cave
+島,Island
+滝,Waterfall
+熱帯雨林,Rainforest
+草原,Grassland
+ジャングル,Jungle
+沼地,Swamp
+桜並木,
+ひまわり畑,Sunflower field
+竹林,Bamboo forest
+湿地,Marshland
+花畑,Flower field
+小麦畑,Wheat field
+都市,City
+田舎,Countryside
+公園,Park
+庭園,Garden
+現代都市,Modern cityscape
+高層ビルの屋上,
+表通り,Street
+路地裏,Alley
+工場,in the factory
+水族館,Aquarium
+古代遺跡,Ancient ruins
+温泉,Hot spring
+学校の教室,Classroom
+喫茶店,Tea shop
+寝室,Bedroom
+リビング,Livingroom
+神社,Shrine
+教会,in the church
+コンサートホール,Concert hall
+図書館,Library
+城,Castle
+青空,Sky
+夜空,Night sky
+星空,Starry night sky
+晴れ,Sunny
+晴天,Fine Weather
+曇り空,Cloudy Weather
+雨,Rain
+激しい雨,Heavy rain
+夜明け,Dawn
+太陽,Sun
+月,
+三日月,Crescent moon
+夕焼け,Sunset
+オーロラ,Northern lights
+流星群,Meteor shower
+降雪,Snowfall
+雪景色,
+
+あなたの回答：
