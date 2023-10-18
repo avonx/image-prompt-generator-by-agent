@@ -1,9 +1,9 @@
 import generator
 
 def main():
-        # Define the character and situation
-    character = "日本人の女子大学生"
-    situation = "スプラッシュマウンテン"
+    # Define the character and situation
+    character = "日本人の女子大学生、赤毛の長髪、ぱっつん髪で垂れ目、幼い顔立ちで背は低い。"
+    situation = "登山に行った"
 
     # Instantiate the ImagePromptGenerator class
     prompt_generator = generator.ImagePromptGenerator()
